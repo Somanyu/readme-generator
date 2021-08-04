@@ -85,7 +85,7 @@ Please make sure to update tests as appropriate.
             README Generator
           </h1>
           <p className="subheading">Everyone needs an intro.</p>
-          <a class="float-end d-lg-flex justify-content-lg-end align-items-lg-end" href="https://github.com/Somanyu/README-template"><i class="fa fa-github" data-bss-hover-animate="bounce"></i></a>
+          <a class="float-end d-lg-flex justify-content-lg-end align-items-lg-end" href="https://github.com/Somanyu/readme-generator"><i class="fa fa-github" data-bss-hover-animate="bounce"></i></a>
         </section>
         <h1 id="what-why-where" className="question"><a id="heading-link" href="#what-why-where">What.Where.Why?</a></h1>
         <section id="what-is-readme" className="d-lg-flex justify-content-center align-items-center align-content-center align-items-lg-center">
@@ -131,6 +131,7 @@ Please make sure to update tests as appropriate.
         <section className="highlight-clean">
           <div className="container">
             <div className="intro">
+            {/* README Generator Section  */}
               <h2 id="highlight" className="text-center">README Generator</h2>
               <p id="highlightpara" className="text-center">create an amazing intro for your project or for your profile with this React based readme generator with basic syntax also you can add your own imagination.</p>
             </div>
@@ -157,7 +158,9 @@ Please make sure to update tests as appropriate.
               </div>
               <div class="col-md-6">
                 <h3 id="h3title">README Preview</h3>
-                <div id="readme-preview" class="justify-content-lg-center align-items-lg-center" dangerouslySetInnerHTML={{ __html: marked(this.state.markdown), }} ></div>
+                <div id="readme-preview" class="justify-content-lg-center align-items-lg-center" dangerouslySetInnerHTML={{
+                                                                                                   __html: marked(this.state.markdown), 
+                                                                                                   }} ></div>
               </div>
             </div>
           </div>
