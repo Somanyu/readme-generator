@@ -169,7 +169,7 @@ Please make sure to update tests as appropriate.
           <p id="link-para">For more guide on markdown syntax, see <a href="https://guides.github.com/pdfs/markdown-cheatsheet-online.pdf">markdown-cheatsheet</a></p>
         </div>
         <footer id="madebyfooter" class="footer-basic">
-          <p id="madebypara">Made By <a href="https://github.com/Somanyu">Somanyu</a> and <a href="https://github.com/srija920">Srija</a> with GitHub</p>
+          <p id="madebypara">Made By <a href="https://github.com/Somanyu">Somanyu</a> and <a href="https://github.com/srija920">Srija</a> with React and hosted on <a href="https://vercel.com">Vercel.</a></p>
         </footer>
 
       </div>
