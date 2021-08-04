@@ -157,7 +157,7 @@ Please make sure to update tests as appropriate.
                 ></textarea></div>
               </div>
               <div class="col-md-6">
-                <h3 id="h3title">README Preview</h3>
+                <h3 id="h3title">README (rendered)</h3>
                 <div id="readme-preview" class="justify-content-lg-center align-items-lg-center" dangerouslySetInnerHTML={{
                                                                                                    __html: marked(this.state.markdown), 
                                                                                                    }} ></div>
